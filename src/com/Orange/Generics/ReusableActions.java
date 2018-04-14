@@ -1,6 +1,7 @@
 package com.Orange.Generics;
 
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 
 public class ReusableActions {
 	
@@ -13,6 +14,18 @@ public class ReusableActions {
 	{
 		
 		element.click();
+		//element.click();
+		
+		
+	}
+	
+	public static void objectIsDisplayed(WebElement element)
+	{
+		if(element.isDisplayed())
+		{
+			Assert.assertTrue(true);
+		}
+		
 	}
 
 }
