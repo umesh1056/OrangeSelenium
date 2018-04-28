@@ -2,6 +2,9 @@ package com.Orange.Scripts;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import com.Orange.POM.HomePage;
 
